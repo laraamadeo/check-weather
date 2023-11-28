@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/svg+xml" href="/favicon.png" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Weather Check</title>
+</head>
+
+<body class="h-full">
+  <div id="root" class="h-full"></div>
+  <script type="module" src="/src/main.jsx"></script>
+  <script>
+    function initMap() {
+      console.log('places-autocomplete-loaded')
+    }
+  </script>
+  <script
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB5-qIBo291JBYUgclqMU_8aAC3VeiMZKs&libraries=places&callback=initMap"></script>
+</body>
+
+</html>
